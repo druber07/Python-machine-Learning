@@ -1,10 +1,10 @@
-#Imports for use:
+# Imports for use:
 import numpy
 from scipy import stats
 import matplotlib.pyplot as plt
 
 
-#Machine Learning: Lesson no.1
+# Machine Learning: Lesson no.1
 """
     Mean - The average value
     Median - The mid point value
@@ -20,7 +20,7 @@ def lesson1():
 
 
 
-#Machine Learning: Lesson no.2
+# Machine Learning: Lesson no.2
 """
     Standard deviation   A low standard deviation means that most of the numbers are close to the mean (average) value.
     (σ) - a number that describes how spread out the values are.
@@ -51,7 +51,7 @@ def lesson2_1():
 
 
 
-#Machine Learning: Lesson no.3
+# Machine Learning: Lesson no.3
 """
     Percentiles are used in statistics to give you a number that describes the value that a given percent of the values are lower than.
 """
@@ -64,7 +64,7 @@ def lesson3():
 
 
 
-#Machine Learning: Lesson no.4
+# Machine Learning: Lesson no.4
 """
     Data Distribution
         Earlier in this tutorial we have worked with very small amounts of data in our examples, just to understand the different concepts.
@@ -74,7 +74,7 @@ def lesson3():
         To create big data sets for testing, we use the Python module NumPy, which comes with a number of methods to create random data sets, of any size.
 """ 
 def lesson4_0():
-    #Create an array containing 250 random floats between 0 and 5:
+    # Create an array containing 250 random floats between 0 and 5:
     x = numpy.random.uniform(0.0, 5.0, 250)
     print(x)
 
@@ -82,7 +82,7 @@ def lesson4_0():
     Histogram - used to visualize the data set we can draw a histogram with the data we collected.
 """
 def lesson4_1():
-    #Create an array containing 250 random floats between 0 and 5:
+    # Create an array containing 250 random floats between 0 and 5:
     x = numpy.random.uniform(0.0, 5.0, 250)
     plt.hist(x, 5)
     plt.show()
@@ -107,7 +107,7 @@ And as you can see from the histogram, most values are between 4.0 and 6.0, with
 
 
 
-#Machine Learning: Lesson no.5
+# Machine Learning: Lesson no.5
 """
     Scatter Plot - A scatter plot is a diagram where each value in the data set is represented by a dot.
 """
